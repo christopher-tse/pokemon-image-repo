@@ -10,16 +10,21 @@ Pokémon having the same two types. The second method involves the use of [DeepI
 ## Getting Started
 1. Clone this repository:
 
-   ```git clone https://github.com/christopher-tse/Winter2022_Shopify_Challenge.git```
+   ```git clone https://github.com/christopher-tse/pokemon-image-repo.git```
+
 2. Make sure you have [Python](https://www.python.org/) installed - instructions on how to do that can be found [here](https://docs.python.org/3/using/index.html)
+
 3. Within the project directory, setup a virtual environment and install the [Flask](https://flask.palletsprojects.com/en/2.0.x/) web application framework - instructions on how to do that can be found [here](https://flask.palletsprojects.com/en/2.0.x/installation/)
+
 4. Using your console/terminal, set the *FLASK_APP* (and optionally *FLASK_DEBUG*) environment variable for the project:
 
    ```export FLASK_APP=server.py```
    ```export FLASK_DEBUG=1```
+
 5. Using your console/terminal, start the application:
 
    ```flask run```
+
 6. To view the application, your console/terminal will output a confirmation message with the address/port it is running on
 
    ```ie. http://localhost:5000```
@@ -36,7 +41,7 @@ For my database, I leveraged SQLite because it required little configuration tim
 
 As for my dataset, I was able to find this really cool [Pokémon dataset](https://www.kaggle.com/vishalsubbiah/pokemon-images-and-types) from [Kaggle](https://www.kaggle.com/), which provided me with a csv file containing Pokémon data and also images of Pokémon.
 
-## TODO: Features
+## TODO: Features/Improvements
 In the limited time that I had to work on this project, I was only able to implement mainly search features. Below are some of the features/improvements that I would like to implement in the future!
 - Tests: I unfortunately did not have enough time to generate a well defined test suite and was only able to perform sanity tests. I hope to learn about the various
   testing libraries available and apply those to my application in the future!
