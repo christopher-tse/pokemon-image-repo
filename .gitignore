@@ -1,0 +1,11 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+
+# db
+database.db
+
+# deepimagesearch meta data
+meta-data-files/
+
+# virtualenv
+venv/

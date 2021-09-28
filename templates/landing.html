@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Pokémon Image Repository</title>
+    </head>
+
+    <body>
+        <header>
+            <h1>My Pokédex</h1>
+        </header>
+
+        <table>
+            <thead>
+                <td>NAME</td>
+                <td>TYPE-1</td>
+                <td>TYPE-2</td>
+                <td>IMAGE</td>
+                <td>SEARCH</td>
+            </thead>
+
+            {% for pokemon in pokemon_list %}
+                <tr>
+                    <td>{{ pokemon["name"] }}</td>
+                    <td>{{ pokemon["type1"] }}</td>
+                    <td>{{ pokemon["type2"] }}</td>
+                    <td>
+                        <img src = '{{ pokemon["path"] }}'/>
+                    </td>
+                    <td>
+                        <a href = '/searchByImage/{{ pokemon["src"] }}'>
+                            <button>
+                                Similar Pokémon (Appearance)
+                            </button>
+                        </a>
+                        <a href = '/searchByType/{{ pokemon["type1"] }}/{{ pokemon["type2"] }}'>
+                            <button>
+                                Similar Pokémon (Types)
+                            </button>
+                        </a>
+                    </td>
+                </tr>
+            {% endfor %}
+        </table>
+    </body>
+</html>
