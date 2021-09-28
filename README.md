@@ -11,6 +11,7 @@ Pokémon having the same two types. The second method involves the use of [DeepI
 1. Clone this repository:
 
    ```git clone https://github.com/christopher-tse/Winter2022_Shopify_Challenge.git```
+2. Make sure you have [Python](https://www.python.org/) installed - instructions on how to do that can be found [here](https://docs.python.org/3/using/index.html)
 3. Within the project directory, setup a virtual environment and install the [Flask](https://flask.palletsprojects.com/en/2.0.x/) web application framework - instructions on how to do that can be found [here](https://flask.palletsprojects.com/en/2.0.x/installation/)
 4. Using your console/terminal, set the *FLASK_APP* (and optionally *FLASK_DEBUG*) environment variable for the project:
 
@@ -42,4 +43,18 @@ In the limited time that I had to work on this project, I was only able to imple
 - Query with new images: Currently the queries are made using existing images in a static directory. It would be nice and very beneficial to have the ability to upload new images (Pokémon) to the image repository for querying, since there are always new images (Pokémon!!) coming out!
 
 ## App Demo via Readme!!
-coming soon..
+coming soon..enjoy these images for now
+
+image repository
+
+<img width="539" alt="Landing" src="https://user-images.githubusercontent.com/50059518/135020466-6f771717-7345-49e1-ac83-8520c9c11eda.png">
+
+searching repository by type
+
+<img width="351" alt="SearchByType" src="https://user-images.githubusercontent.com/50059518/135020773-8dc444b8-a586-4910-ab62-707bdfc373e2.png">
+
+searching repository by image
+
+<img width="351" alt="SearchByImage" src="https://user-images.githubusercontent.com/50059518/135020824-f710f145-c0a5-47c3-a651-8d4a52b21267.png">
+
+
