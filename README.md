@@ -1,4 +1,4 @@
-# Image Repository (Pokémon Edition) - Shopify Challenge 2022
+# Pokémon Image Repository
 
 Ever wanted to search up Pokémon based on their similarities to other Pokémon?
 
